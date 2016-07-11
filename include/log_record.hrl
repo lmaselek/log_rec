@@ -11,3 +11,5 @@
 -record(rec, {a1, a2, a3, a4, nazwa_jeden, nazwa_dwa}).
 
 -record(inny, {nazwa_b, nazwa_c, nazwa_d}).
+
+-record(inny2, {nazwa_b, nazwa_c, nazwa_d, cos_nowego}).
