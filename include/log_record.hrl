@@ -13,3 +13,5 @@
 -record(inny, {nazwa_b, nazwa_c, nazwa_d}).
 
 -record(inny2, {nazwa_b, nazwa_c, nazwa_d, cos_nowego}).
+
+-record(innydwa, {nazwa_1, nazwa_c, nazwa_d, cos_nowego}).
