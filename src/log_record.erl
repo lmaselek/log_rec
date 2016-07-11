@@ -37,6 +37,8 @@ run(Any) ->
   Any
 .
 
+
+
 rec_inf(Record) when is_record(Record, rec)   -> record_info(fields, rec);
 rec_inf(Record) when is_record(Record, inny)  -> record_info(fields, inny);
 rec_inf(Record) when is_record(Record, inny2) -> record_info(fields, inny2);
